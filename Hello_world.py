@@ -10,4 +10,4 @@ def print_my_name(name):
 listOfArguments = sys.argv[1:]
 Name = str(listOfArguments[0])
 
-sys.stdout.write(print_my_name(Name))
+sys.stdout.write(str(print_my_name(Name)))
